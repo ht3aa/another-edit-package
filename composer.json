@@ -1,0 +1,30 @@
+{
+    "name": "hasanweb/another-edit",
+    "description": "easy search to get another record to edit it",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hasanweb\\AnotherEdit\\": "src/"
+        }
+    },
+
+"extra": {
+        "laravel": {
+            "providers": [
+                "Hasanweb\\AnotherEdit\\AnotherEditServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "hasan.tahseen",
+            "email": "ht3aa2001@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "*",
+        "illuminate/support": "^11.27",
+        "filament/filament": "^3.2"
+    }
+}
